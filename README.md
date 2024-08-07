@@ -1,1 +1,1 @@
-# portfolio
+Showcasing my web development skills, this portfolio features responsive designs and interactive elements built with HTML, CSS, and JavaScript. Explore my projects and see how I blend creativity with technical expertise!
