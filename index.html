@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-weight: bold;">Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37bb19ae9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" style=" height: 10; width: 20;">
+    
+    <div class="container"> 
+        <nav>
+            
+            <ul>
+                <li><a href="#header" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="headertext">
+            <p style="color: rgb(121, 11, 11); margin-top: 20%; margin-left: 10%; font-size: 25px; font-weight: bold;">JAVA Fullstack Developer/React Fontend Developer</p>
+            <h1 style="color: #080346; margin-left: 10%; font-size: 45px;">Hi, I'm <span style="color:#ff004f">Sayantika Dey</span><br> From Kolkata, India</h1>
+        </div>
+    </div>
+</div>
+<!-- ------------about---------- -->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <div.polaroid { style="width: 250;
+                                   background-color: white;
+                                   box-shadow: 0 2px 64px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"  }> 
+                <img src="Images/B612_20221210_104349_906.jpg"
+                     width="140" 
+                     height="200"/>
+            </div.polaroid>
+            </div>
+
+            <div class="about-col-2">
+                <h1 style="color: #080346; font-weight: 700; margin-top: 30px;" class="sub-title">About Me</h1>
+                <p style="color:black; margin-top: 20px;">As a dedicated IT professional holding a Bachelor of Technology in Information Technology, I am seeking a challenging opportunity within a forward-looking organization. I aim to apply my technical expertise, embrace new technological advancements, and make significant contributions. My objective is to foster both personal and professional growth while delivering impactful results. </p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills', event)">Skills</p>
+                <p class="tab-links " onclick="opentab('Experiences', event)">Experiences</p>
+                <p class="tab-links " onclick="opentab('Education', event)">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul style="color:black;">
+                    <li><span>PROGRAMMING LANGUAGES </span> <br>JAVA, Python, HTML, C++</li>
+                    <li><span>SCRIPTING LANGUAGES </span> <br>CSS, JavaScript </li>
+                    <li><span>FRAMEWORK </span> <br>React Native, ReachJS</li>
+                    <li><span>DATABASE </span> <br>OracleDB, Mysql</li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="Experiences">
+                <ul style="color:black;">
+                    <li><span>JUNIOR WEB DEVELOPER </span> <br>Working as a Junior Full stack Developer at Bluesky Education Study Abroad Consultancy.Created an impressive demo of an EdTech Android app built on React Native, empowering users with a seamless
+                        frontend experience to explore and discover international universities and courses.
+                        </li>
+                </ul>
+                <ul style="color:black;">
+                    <li><span>APP DEVELOPER  </span> <br>Working as a Android App Developer Freelancer. Successfully implemented and integrated a collection of meticulously designed app screens for an innovative Education App utilizing React Native, ReactJS, and more, providing seamless learning experiences with live classes, a library, a question bank, online exams, and comprehensive facilities.
+                        </li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="Education">
+                <ul style="color:black;">
+                    <li><span>B.TECH IN INFORMATION TECHNOLOGY </span> <br>Calcutta Institute of Engineering and Management [2019-2023]</li>
+                    <li><span>W.B.C.H.S.E</span> <br>Rabindranath Tagore Girls High School [2018]</li>
+                    <li><span>W.B.B.S.E </span> <br>Rabindranath Tagore Girls High School [2016]</li>
+                </ul>
+            </div>
+                </div>
+        </div>
+    </div>
+</div>
+<!------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 style="color: #080346; font-weight: 700; margin-top: 30px;" class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"; style="color: black;"></i>
+                <h2 style="color: #08127e; font-weight: bold">Website Developer</h2>
+                <p style="color: black;">A web developer is a skilled professional responsible for designing, coding, and maintaining websites and web applications. They work with programming languages like HTML, CSS, and JavaScript to create user-friendly and functional digital experiences. Web developers often collaborate with designers and content creators to ensure websites meet both aesthetic and technical requirements.</p>
+                <a href="#" style="color: purple; font-weight: bold;">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"; style="color: black;"></i>
+                <h2 style="color: #08127e; font-weight: bold"> Android App Developer</h2>
+                <p style="color: black;">An Android app developer using React is proficient in leveraging the React framework along with other technologies like JavaScript and JSX to build robust and efficient mobile applications for the Android platform. They harness React's component-based architecture to create interactive and responsive user interfaces, integrating with native Android capabilities for seamless functionality and performance.</p>
+                <a href="#" style="color: purple; font-weight: bold; ">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-branch"; style="color: black;"></i>
+                <h2 style="color: #08127e; font-weight: bold">Fullstack JAVA Developer</h2>
+                <p style="color: black;">A full stack Java developer is proficient in both front-end and back-end development using Java technologies. They are skilled in frameworks like Spring and Hibernate for server-side development, while also adept at HTML, CSS, and JavaScript for creating dynamic user interfaces. Full stack Java developers can architect and deploy full-fledged web applications independently, handling both server-side logic and client-side interactions.</p>
+                <a href="#" style="color: purple;font-weight: bold;">learn more</a>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+<!--------------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 style="color: #080346; font-weight: 700; margin-top: 30px;" class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/B612_20221209_201302_110.jpg">
+                <div class="layer">
+                    <h3 style="color: rgb(253, 253, 253); font-weight: bold">HyperLocal Delivery App</h3>
+                    <p style="color: rgb(253, 253, 253); font-weight: bold"> The app connects you the people in your surrounding who want to pick-up or drop your packages</p>
+                    <a href="https://github.com/sayantikadey/HyperLocal"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/B612_20221209_201302_110.jpg">
+                <div class="layer">
+                    <h3 style="color: rgb(253, 253, 253); font-weight: bold;">Course Finder App</h3>
+                    <p style="color: rgb(253, 253, 253); font-weight: bold"> The app connects you to the worlwide higher education institutes</p>
+                    <a href="https://github.com/sayantikadey/bluesky"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/B612_20221209_201302_110.jpg">
+                <div class="layer">
+                    <h3 style="color: rgb(253, 253, 253); font-weight: bold">Current Location App</h3>
+                    <p style="color: rgb(253, 253, 253); font-weight: bold"> The app helps you to check your current location</p>
+                    <a href="https://github.com/sayantikadey/SearchMap"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/B612_20221209_201302_110.jpg">
+                <div class="layer">
+                    <h3 style="color: rgb(253, 253, 253); font-weight: bold">Chatting Application</h3>
+                    <p style="color: rgb(253, 253, 253); font-weight: bold"> The app helps you to talk to other people</p>
+                    <a href="https://github.com/sayantikadey/chatbot"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/B612_20221209_201302_110.jpg">
+                <div class="layer">
+                    <h3 style="color: rgb(253, 253, 253); font-weight: bold;">Job Application Form</h3>
+                    <p style="color: rgb(253, 253, 253); font-weight: bold"> The app helps you to apply to a job </p>
+                    <a href="https://github.com/sayantikadey/JobApply"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/B612_20221209_201302_110.jpg">
+                <div class="layer">
+                    <h3 style="color: rgb(253, 253, 253); font-weight: bold;">Portfolio Website</h3>
+                    <p style="color: rgb(253, 253, 253); font-weight: bold"> The app helps to showcase your won skills, projects and experiences</p>
+                    <a href="https://github.com/sayantikadey/bluesky"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+         <!--<a href="#" class="btn" id="see-more-btn">See more</a>--> 
+    </div>
+</div>
+<br><br><br>
+<br>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>    
+                <p class="sub-contact "><i class="fa-solid fa-square-envelope"></i>Sayantikasuri@gmail.com</p>
+                <p class="sub-contact"><i class="fas fa-phone-square-alt"></i>7047292928</p>
+                <a href="https://www.naukri.com/code360/profile/SayantikaDey"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://github.com/sayantikadey"><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/sayantika-dey-b158b6214"><i class="fab fa-linkedin"></i></a>
+                <div>
+                    <a href="Images/SayantikaResume2.pdf" download class="btn button"> Download Resume</a>
+                </div>
+            </div>
+            
+            
+    </div>
+   
+</div>
+<div class="copyright">
+    <p>Copyright Sayantika. Made with HTML, CSS, Javascript </p>
+
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname, event) {
+        // Remove active class from all tab links
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+
+        // Remove active class from all tab contents
+        for (let j = 0; j < tabcontents.length; j++) {
+            tabcontents[j].classList.remove("active-tab");
+        }
+
+        // Add active class to the clicked tab link
+        event.currentTarget.classList.add("active-link");
+        
+        // Add active class to the corresponding tab content
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    // Optionally, open the first tab by default
+    document.addEventListener("DOMContentLoaded", function() {
+        opentab('Skills', { currentTarget: tablinks[0] });
+    });
+
+    document.getElementById('see-more-btn').addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent the default link behavior
+        var hiddenItems = document.querySelectorAll('.work.hidden');
+        hiddenItems.forEach(function(item) {
+            item.classList.remove('hidden');
+        });
+        this.style.display = 'none'; // Optionally hide the button after clicking
+    });
+</script>
+
+
+
+
+</body>
+</html>
